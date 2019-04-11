@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Career Path</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+<body>
+<script src="JavaScript/finalproject.js"></script>
+<div class="container-fluid" >
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="Index.html">Claire Ko</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto w-100 justify-content-end">
+            <a class="nav-link" href="aboutme.html">AboutMe</a>
+            <a class="nav-link" href="education.html">Education</a>
+            <a class="nav-link" href="working.html">Working</a>
+            <a class="nav-link" href="Project.html">Project</a>
+            <a class="nav-link" href="Video.html">Video</a>
+            <a class="nav-link" href="loving.html">Habit</a>
+            <a class="nav-link" href="photo.html">Gallery</a>
+            <a class="nav-link" href="contact.html">ContactMe</a>
+            <a class="nav-link" href="Location.html">Location</a>
+            <a class="nav-link" href="Signin.html">SignIn</a>
+        </div>
+    </div>
+</nav>
+<div class="product">
+    <form onsubmit="submitform()">
+        <h1>Contact Me</h1>
+        <div >
+            Name: <input  type="text" name="name" required><br><br>
+
+            Gender:<select  id="gender">
+                    <option>Male</option>
+                    <option>Female</option> </select><br><br>
+            Birthday:<input  type="text" name="date" required><br><br>
+            Marriage:
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="Inline1" name="customRadioInline1" class="custom-control-input">
+                <label class="custom-control-label" for="Inline1">Yes</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="Inline2" name="customRadioInline1" class="custom-control-input">
+                <label class="custom-control-label" for="Inline2">No</label>
+            </div><br><br>
+
+            Email: <input type="email" id="email" required><br><br>
+            Phone: <input type="tel" id="phone" required><br><br>
+            Address: <input type="text" id="address" required><br><br>
+
+            Please contact me:  <br><textarea name="info" id="info" maxlength="50"  required></textarea><br>
+            <button  type="submit" name="submit" id="submit">Submit</button>
+        </div>
+    </form>
+</div>
+
+    <br><br>
+
+    <div id="footer">
+        <div class="container">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                <p class="h5"> copy All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Claire Ko</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</body>
+</html>

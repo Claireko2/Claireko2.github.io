@@ -1,0 +1,413 @@
+
+.bg-image {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.rounded-circle{
+    width:300px;
+    height:300px;
+
+    display:inline-block;
+    float:left;
+    max-height:100%;
+    max-width: 100%;
+    margin-left:230px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+
+    border-style: groove;
+}
+.round{
+    width:450px;
+    height:450px;
+    padding:70px;
+    margin-left: 100px;
+    display:inline-block;
+    float:left;
+    max-height:100%;
+    max-width: 100%;
+}
+.round-2{
+    width:450px;
+    height:450px;
+    padding:70px;
+    margin-left: 50px;
+    display:inline-block;
+    float:left;
+    max-height:100%;
+    max-width: 100%;
+}
+
+.text-white{
+    color: white;
+    font-size: large;
+}
+
+
+.nav-link-2{
+    background-color:cornflowerblue;
+    color: white;
+    border-radius: 15px;
+    text-align:left;
+    padding: 10px;
+
+
+}
+
+.indextext{
+    text-align: center;
+    border:5px;
+    width:100%;
+    height:auto;
+    display:inline-block;
+    font-size:x-large;
+    font-style: oblique;
+    color:gray;
+}
+.productcontext{
+    overflow:hidden;
+}
+.producttext {
+    opacity: 0.7;
+    background-color: white;
+    display:inline-block;
+    text-align:center;
+    float: right;
+    margin-top: 120px;
+    margin-right: 90px;
+    padding: 30px;
+    font-size:20px;
+    font-family: Arial,Helvetica,sans-serif ;
+    width:48%;
+    height:auto;
+    font-weight: bold;
+    border-style: groove;
+    border-width: thick;
+}
+.educontext{
+    overflow:hidden;
+}
+.edutext {
+
+    background-color: gray;
+    display: inline-block;
+    text-align: center;
+    float: right;
+    margin-top: 70px;
+    margin-right: 200px;
+    padding: 50px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 48%;
+    height: auto;
+    font-weight: bold;
+    color: white;
+    opacity: 0.8;
+    border-style: groove;
+    border-width: thick;
+}
+.educontext-2{
+    overflow:hidden;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.edutext-2{
+
+    background-color: gray;
+    display:inline-block;
+    text-align:center;
+    float: left;
+    padding: 40px;
+    font-size:15px;
+    font-family: Arial,Helvetica,sans-serif ;
+    width:48%;
+    height:auto;
+    font-weight: bold;
+    margin-top: 70px;
+    color: white;
+    opacity:0.8;
+    border-style: groove;
+    border-width: thick;
+}
+
+
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.d-block w-100{
+    height:500px;
+
+}
+.card-img-top{
+    width:100px;
+    height:400px;
+
+}
+
+.card-img-top-2{
+    width:100%;
+    height:200px;
+
+}
+.product{
+    width:100% ;
+    text-align: center;
+    padding:5px;
+    color: white;
+
+
+}
+h1{
+    text-align: center;
+}
+.topic {
+    border-style: ridge;
+    border-radius: 15px;
+    border-color: darkgoldenrod;
+    background-color: moccasin;}
+
+
+.contact{
+    padding: 50px;
+    float: right;
+    font-style: italic;
+    font-size: 50px;}
+
+
+
+.servicespan{
+
+    font-size:20px;
+    font-family:"Times New Roman",Helvetica,sans-serif;
+    padding-left:5px;
+    padding-right:5px;
+    width:auto;
+    height:auto;
+    font-weight: lighter;
+
+
+}
+.servicetext{
+    padding-left:5px;
+    font-size:30px;
+    font-family:"Times New Roman",Helvetica,sans-serif;
+    width:100%;
+    height:auto;
+    font-weight:bold;
+    float:left;
+    text-align:left;
+}
+
+textarea{
+    height:200px;
+    width: 500px;}
+
+a{
+    text-align: end;
+    padding: 20px 20px;
+    font-size:large;
+    color:white;
+}
+
+
+p{
+    text-align: center;
+    padding: 30px;
+    font-size: large;
+}
+.card-title{
+    color:dimgray;
+    padding:10px;
+    text-align: center;
+}
+.card-text{
+    color:dimgrey;
+    padding:10px;
+    text-align: left;
+
+}
+.card-link{
+    color:black;
+}
+.card-body{
+    height:500px;
+}
+.card-body-3{
+    height:350px;
+}
+
+.card-body-2{
+    height: 50px;
+}
+.signin{
+    text-align: center;
+    font-size: x-large;
+}
+
+body {
+   background-image: url("../images/abstract.jpg");
+    font-family: "Asap", sans-serif;
+    color:#989898;
+    margin:10px;
+    font-size:16px;
+}
+
+#demo {
+    height:100%;
+    position:relative;
+    overflow:hidden;
+}
+.green{
+    background-color:#6fb936;
+}
+.thumb{
+    margin-bottom: 30px;
+}
+
+.page-top{
+    margin-top:85px;
+}
+
+
+img.zoom {
+    width: 100%;
+    height: 200px;
+    border-radius:5px;
+    object-fit:cover;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+
+
+.transition {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+}
+
+
+.modal-header {
+
+    border-bottom: none;
+}
+.modal-title {
+    color:#000;
+}
+.modal-footer{
+    display:none;
+}
+.map-container-5{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container-5 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.jumbotron-billboard .img {
+    margin-bottom: 0px;
+    opacity: 0.2;
+    color: #fff;
+    background: #000 url("https://bootstrapcreative.com/wp-bc/wp-content/uploads/2017/03/learning-story.png") top center no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+.jumbotron h2 {margin-top:0;}
+.jumbotron {
+    position:relative;
+    padding-top:100px;
+    padding-bottom:0px;
+    color: black;
+    margin-top: 50px;
+    text-align: center;
+    opacity: 0.7;
+}
+.jumbotron .container {
+    position:relative;
+    z-index:2;
+}
+
+@media screen and (max-width: 768px) {
+    .jumbotron {
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+}
+
+
+#footer {
+    background: gray;
+    opacity: 0.8;
+}
+
+#footer a {
+    color: #ffffff;
+    text-decoration: none ;
+    background-color: transparent;
+}
+
+.container{margin-top: 80px;}
+.display{
+    font-size: x-large;
+    color: black;
+
+}
+
+.signin{
+    text-align: left;
+}
+
+.video{
+    width: 500px;
+    margin-top: 100px;
+    margin-left:50px;
+    border-style: groove;
+    border-width: thick;
+
+
+}
+.covervideo{
+    margin-left: 80px;
+    width: 80%;
+    height:80%;
+    border-style: groove;
+    border-width: thick;
+}
+
+
